@@ -5,7 +5,7 @@
 SelectedNumber = int(input("Enter the next number: "))
 if SelectedNumber < 67:
     BelowResult = 67 - SelectedNumber
-    print("The result is: 67-", BelowResult)
+    print("The result is: 67-" + str(BelowResult))
 elif SelectedNumber == 67:
     print("The result is: 67")
 elif SelectedNumber > 67:
@@ -17,4 +17,4 @@ elif SelectedNumber > 67:
         Aboveresult = Aboveresult + str(SelectedNumber)
     else:
         Aboveresult = Aboveresult.rstrip("+")
-    print("The result is:", Aboveresult)
+    print("The result is:" + Aboveresult)
